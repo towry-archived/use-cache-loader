@@ -27,7 +27,7 @@ useCacheLoader.pitch = function () {
 	try {
 		return getCacheContent(cacheFilepath);
 	} catch (e) {
-		console.log(e);
+		// pass
 	}
 }
 
